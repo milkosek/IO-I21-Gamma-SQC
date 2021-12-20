@@ -1,9 +1,9 @@
-package pl.put.poznan.transformer.logic;
+package pl.put.poznan.transformer.obsolete;
 
-import org.hamcrest.Condition;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import pl.put.poznan.transformer.obsolete.Scenario;
 
 import java.io.FileReader;
 import java.util.ArrayList;

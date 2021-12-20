@@ -8,6 +8,7 @@ public class Step implements ScenarioPart{
     }
 
     private String step;
+    private int depth;
 
     public Step(String s){
         this.step = s;
@@ -15,5 +16,13 @@ public class Step implements ScenarioPart{
 
     public String getStep() {
         return this.step;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
+    }
+
+    public int getDepth() {
+        return this.depth;
     }
 }

@@ -47,8 +47,11 @@ public class Scenario implements ScenarioPart{
     public String getActor(int i){
         return this.actors.get(i).getName();
     }
-    public String getSteps(int i){
+    public String getNthStep(int i){
         return this.steps.get(i).getStep();
+    }
+    public ArrayList<Step> getSteps(){
+        return this.steps;
     }
 
     public String getAll(){

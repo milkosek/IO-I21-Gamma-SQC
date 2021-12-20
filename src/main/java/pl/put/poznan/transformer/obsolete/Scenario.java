@@ -1,4 +1,4 @@
-package pl.put.poznan.transformer.logic;
+package pl.put.poznan.transformer.obsolete;
 
 import java.util.ArrayList;
 import java.util.List;
