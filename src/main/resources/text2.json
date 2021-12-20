@@ -1,0 +1,50 @@
+[
+  {
+    "Tytuł": "Dodanie książki",
+    "Aktorzy":  "Bibliotekarz",
+    "Aktor systemowy": "System",
+
+    "steps": [
+      {"text": "Bibliotekarz wybiera opcje dodania nowej pozycji książkowej", "substeps": []},
+      {"text": "Wyświetla się formularz.", "substeps": []},
+      {"text": "Bibliotekarz podaje dane książki.", "substeps": []},
+      {"text": "IF: Bibliotekarz pragnie dodać egzemplarze książki", "substeps": [
+        { "text": "Bibliotekarz wybiera opcję definiowania egzemplarzy", "substeps": []},
+        { "text": "System prezentuje zdefiniowane egzemplarze", "substeps": []},
+        { "text": "FOR EACH: egzemplarz", "substeps": [
+          {"text": "Bibliotekarz wybiera opcję dodania egzemplarza", "substeps": []},
+          {"text": "System prosi o podanie danych egzemplarza", "substeps": []},
+          {"text": "Bibliotekarz podaje dane egzemplarza i zatwierdza.", "substeps": []},
+          {"text": "System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.", "substeps": []}
+        ]}
+      ]},
+      { "text": "Bibliotekarz zatwierdza dodanie książki.", "substeps": []},
+      { "text": "System informuje o poprawnym dodaniu książki.", "substeps": []}
+    ]
+  },
+
+  {
+    "Tytuł": "Dodanie",
+    "Aktorzy":  "Bibliotekarz",
+    "Aktor systemowy": "System",
+
+    "steps": [
+      {"text": "Bibliotekarz", "substeps": []},
+      {"text": "Wyświetla", "substeps": []},
+      {"text": "Bibliotekarz.", "substeps": []},
+      {"text": "IF: Bibliotekarz pragnie ", "substeps": [
+        { "text": "Bibliotekarz wybieray", "substeps": []},
+        { "text": "System prezentuje", "substeps": []},
+        { "text": "FOR EACH: egzz", "substeps": [
+          {"text": "Bibliotekarz wybiearza", "substeps": []},
+          {"text": "System pregzemplarza", "substeps": []},
+          {"text": "Bibliotekarz perdza.", "substeps": []},
+          {"text": "System inforegzemplarzy.", "substeps": []}
+        ]}
+      ]},
+      { "text": "Bibliotekarz książki.", "substeps": []},
+      { "text": "System informuu książki.", "substeps": []}
+    ]
+  }
+]
+
