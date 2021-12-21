@@ -4,7 +4,11 @@ import pl.put.poznan.transformer.Scenario.*;
 
 import java.util.ArrayList;
 
-public class MistakeCounter implements ScenarioPartVisitor {
+/**
+ * The MistakeChecker class checks every step of a scenario
+ * to find any that do not start with a viable actor.
+ */
+public class MistakeChecker implements ScenarioPartVisitor {
 
     private ArrayList<String> actors = new ArrayList<>();
     private ArrayList<String> mistakes = new ArrayList<>();
@@ -19,16 +23,28 @@ public class MistakeCounter implements ScenarioPartVisitor {
 
     }
 
+    /**
+     * Used to list every viable actor name.
+     * @param actor
+     */
     @Override
     public void visit(Actor actor) {
         actors.add(actor.getName());
     }
 
+    /**
+     * Used to list every viable system actor name.
+     * @param systemActor
+     */
     @Override
     public void visit(SystemActor systemActor) {
         actors.add(systemActor.getName());
     }
 
+    /**
+     * This method checks whether a step begins with a viable actor's name.
+     * @param step
+     */
     @Override
     public void visit(Step step) {
         String text = step.getStep().trim();
@@ -49,6 +65,10 @@ public class MistakeCounter implements ScenarioPartVisitor {
         mistakes.add(step.getStep());
     }
 
+    /**
+     * Standard getter method.
+     * @return String containing every step of a scenario not starting with an actor's name
+     */
     public String getMistakes(){
         String mistake = "";
         for (String mist : mistakes) {
