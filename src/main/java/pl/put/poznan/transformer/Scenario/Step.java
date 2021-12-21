@@ -10,13 +10,20 @@ public class Step implements ScenarioPart{
     private String step;
     private int depth;
 
-    public Step(String s, int depth){
+    public Step(String s){
         this.step = s;
-        this.depth = depth;
     }
 
     public String getStep() {
         return this.step;
+    }
+
+    public void setStep(String text) {
+        this.step = text;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 
     public int getDepth() {

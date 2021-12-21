@@ -33,8 +33,7 @@ public class Scenario implements ScenarioPart{
             this.systemActors.add(new SystemActor(act));
         }
         for (String step : steps) {
-            // parse steps and their depth
-            this.steps.add(new Step(step, step.indexOf(step.trim())));
+            this.steps.add(new Step(step));
         }
     }
 
@@ -57,5 +56,13 @@ public class Scenario implements ScenarioPart{
 
     public String getAll(){
         return this.getTitle() + "\n" + this.getActor(0) + "\n";
+    }
+
+    public String getAllSteps(){
+        String answer = "";
+        for (Step step : getSteps()) {
+            System.out.println(step.getStep());
+        }
+        return answer;
     }
 }

@@ -19,9 +19,9 @@ public class JSONparser {
     }
 
     public static void main(String[] args) {
-        List<Scenario> scenarios = new ArrayList<Scenario>();
-        scenarios = readJSONscenario("src/main/resources/text2.json");
-        scenarios.forEach( scenario -> scenario.printScenario() );
+//        List<Scenario> scenarios = new ArrayList<Scenario>();
+//        scenarios = readJSONscenario("src/main/resources/text2.json");
+//        scenarios.forEach( scenario -> scenario.printScenario() );
     }
 
     @SuppressWarnings("unchecked")
