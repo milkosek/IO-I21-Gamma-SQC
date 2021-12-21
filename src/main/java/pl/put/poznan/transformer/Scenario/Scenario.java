@@ -33,7 +33,8 @@ public class Scenario implements ScenarioPart{
             this.systemActors.add(new SystemActor(act));
         }
         for (String step : steps) {
-            this.steps.add(new Step(step));
+            // parse steps and their depth
+            this.steps.add(new Step(step, step.indexOf(step.trim())));
         }
     }
 
