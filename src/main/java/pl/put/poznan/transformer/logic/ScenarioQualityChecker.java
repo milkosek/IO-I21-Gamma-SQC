@@ -2,18 +2,18 @@ package pl.put.poznan.transformer.logic;
 
 import pl.put.poznan.transformer.Scenario.Scenario;
 import pl.put.poznan.transformer.Visitors.KeywordCounter;
-import pl.put.poznan.transformer.Visitors.MistakeCounter;
+import pl.put.poznan.transformer.Visitors.MistakeChecker;
 import pl.put.poznan.transformer.Visitors.StepEnumerator;
 import pl.put.poznan.transformer.Visitors.StepsCounter;
 
 /**
  * This is just an example to show that the logic should be outside the REST service.
  */
-public class TextTransformer {
+public class ScenarioQualityChecker {
 
     private final Scenario trans;
 
-    public TextTransformer(Scenario trans){
+    public ScenarioQualityChecker(Scenario trans){
         this.trans = trans;
     }
 
@@ -42,7 +42,7 @@ public class TextTransformer {
                 break;
 
             case "mistakes":
-                MistakeCounter mistakeCounter = new MistakeCounter();
+                MistakeChecker mistakeCounter = new MistakeChecker();
                 trans.accept(mistakeCounter);
                 answer = mistakeCounter.getMistakes();
                 break;
