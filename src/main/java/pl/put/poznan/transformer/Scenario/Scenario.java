@@ -54,10 +54,6 @@ public class Scenario implements ScenarioPart{
         return this.steps;
     }
 
-    public String getAll(){
-        return this.getTitle() + "\n" + this.getActor(0) + "\n";
-    }
-
     public String getAllSteps(){
         String answer = "";
         for (Step step : getSteps()) {

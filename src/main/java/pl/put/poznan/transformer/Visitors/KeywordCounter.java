@@ -3,14 +3,11 @@ package pl.put.poznan.transformer.Visitors;
 import pl.put.poznan.transformer.Scenario.*;
 
 public class KeywordCounter implements ScenarioPartVisitor {
-    private int keywordCount;
+    private int keywordCount = 0;
 
     @Override
     public void visit(Scenario scenario) {
-        this.keywordCount = 0;
-        for (Step step : scenario.getSteps()) {
-            visit(step);
-        }
+
     }
 
     @Override
@@ -27,7 +24,7 @@ public class KeywordCounter implements ScenarioPartVisitor {
         }
     }
 
-    public int returnKeywordCount() {
+    public int getKeywordCount() {
         return this.keywordCount;
     }
 

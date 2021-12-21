@@ -10,7 +10,7 @@ public class StepsCounter implements ScenarioPartVisitor {
         this. count = scenario.getSteps().size();
     }
 
-    public int returnCount() {
+    public int getCount() {
         return this.count;
     }
 
