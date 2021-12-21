@@ -2,6 +2,7 @@ package pl.put.poznan.transformer.logic;
 
 import pl.put.poznan.transformer.Scenario.Scenario;
 import pl.put.poznan.transformer.Visitors.KeywordCounter;
+import pl.put.poznan.transformer.Visitors.MistakeCounter;
 import pl.put.poznan.transformer.Visitors.StepEnumerator;
 import pl.put.poznan.transformer.Visitors.StepsCounter;
 
@@ -43,6 +44,12 @@ public class TextTransformer {
                 StepEnumerator stepEnumerator = new StepEnumerator();
                 stepEnumerator.visit(trans);
                 answer = this.trans.getAllSteps();
+                break;
+
+            case "mistakes":
+                MistakeCounter mistakeCounter = new MistakeCounter();
+                trans.accept(mistakeCounter);
+                answer = mistakeCounter.getMistakes();
                 break;
 
             case "r":
