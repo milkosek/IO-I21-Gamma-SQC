@@ -50,6 +50,7 @@ public class StepEnumerator implements ScenarioPartVisitor {
     public void visit(Step step) {
         String stepText = step.getStep();
         step.setDepth(stepText.indexOf(stepText.trim()));
+        step.setStep(stepText.trim());
     }
 
     @Override

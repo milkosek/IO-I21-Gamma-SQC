@@ -1,3 +1,804 @@
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T203223.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T203141.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T203140.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T203138.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T203011.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202936.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202839.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202803.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202729.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202659.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202646-1.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202646.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202643.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202508.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202447.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202419.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy:",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202404.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T202341.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T201206.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T201134.200.json
+
+###
+
+POST http://localhost:8080/enumerate
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+###
+
+POST http://localhost:8080/mistakes
+Content-Type: application/json
+
+{
+  "title": "Dodanie książki",
+  "actors": [
+    "Bibliotekarz"
+  ],
+  "system_actors": [
+    "System"
+  ],
+  "steps": [
+    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+    "Wyświetla się formularz.",
+    "Bibliotekarz podaje dane książki.",
+    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    " FOR EACH egzemplarz:",
+    "  Bibliotekarz wybiera opcję dodania egzemplarza",
+    "  System prosi o podanie danych egzemplarza",
+    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
+    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
+    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
+    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
+    " System prezentuje zdefiniowane egzemplarze",
+    "Bibliotekarz zatwierdza dodanie książki.",
+    "System informuje o poprawnym dodaniu książki."
+  ]
+}
+
+<> 2021-12-21T200348.200.json
+
+###
+
 POST http://localhost:8080/countKeywords
 Content-Type: application/json
 
@@ -878,811 +1679,6 @@ Content-Type: application/json
 }
 
 <> 2021-12-21T171821.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz: ",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T171812.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T171725.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T171641.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:xx",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T170214.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T170200.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T170019.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165948.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165817.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165740.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165720.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165708.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165706.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165242.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165238.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T165223.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164955.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164912.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164754-1.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164754.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164751.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164624.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164320.200.json
-
-###
-
-POST http://localhost:8080/enumerate
-Content-Type: application/json
-
-{
-  "title": "Dodanie książki",
-  "actors": [
-    "Bibliotekarz"
-  ],
-  "system_actors": [
-    "System"
-  ],
-  "steps": [
-    "Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
-    "Wyświetla się formularz.",
-    "Bibliotekarz podaje dane książki.",
-    "IF: Bibliotekarz pragnie dodać egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    " FOR EACH egzemplarz:",
-    "  Bibliotekarz wybiera opcję dodania egzemplarza",
-    "  System prosi o podanie danych egzemplarza",
-    "  Bibliotekarz podaje dane egzemplarza i zatwierdza.",
-    "  System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.",
-    "IF: Bibliotekarz pragnie dodać kolejne egzemplarze książki",
-    " Bibliotekarz wybiera opcję definiowania egzemplarzy",
-    " System prezentuje zdefiniowane egzemplarze",
-    "Bibliotekarz zatwierdza dodanie książki.",
-    "System informuje o poprawnym dodaniu książki."
-  ]
-}
-
-<> 2021-12-21T164116.200.json
 
 ###
 

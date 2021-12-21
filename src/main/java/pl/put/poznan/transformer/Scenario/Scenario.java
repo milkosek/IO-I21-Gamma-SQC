@@ -57,7 +57,9 @@ public class Scenario implements ScenarioPart{
     public String getAllSteps(){
         String answer = "";
         for (Step step : getSteps()) {
-            System.out.println(step.getStep());
+            //System.out.println(step.getStep());
+            // "\n" doesn't work on strings ending with ":"?!
+            answer += step.getStep() + "\n";
         }
         return answer;
     }
