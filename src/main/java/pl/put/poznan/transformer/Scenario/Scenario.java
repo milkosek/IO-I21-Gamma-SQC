@@ -10,7 +10,7 @@ public class Scenario implements ScenarioPart{
 
     /**
      * This method allows visitor classes to visit every cataloged element class of a scenario.
-     * @param scenarioPartVisitor This is the only parameter to accept method
+     * @param scenarioPartVisitor Accepts any Visitor object implementing ScenarioPartVisitor interface
      */
     @Override
     public void accept(ScenarioPartVisitor scenarioPartVisitor){
@@ -34,10 +34,10 @@ public class Scenario implements ScenarioPart{
 
     /**
      * The Scenario constructor creates all necessary scenario element classes.
-     * @param title
-     * @param actors
-     * @param system_actors
-     * @param steps
+     * @param title Title object
+     * @param actors Actor object
+     * @param system_actors SystemActor object
+     * @param steps Step object
      */
     public Scenario(String title, String[] actors, String[] system_actors, String[] steps){
         this.title = new Title(title);
@@ -95,6 +95,10 @@ public class Scenario implements ScenarioPart{
         return this.steps;
     }
 
+    /**
+     * This method concatenates every step name into a single String.
+     * @return String containing every step of a scenario
+     */
     public String getAllSteps(){
         String answer = "";
         for (Step step : getSteps()) {

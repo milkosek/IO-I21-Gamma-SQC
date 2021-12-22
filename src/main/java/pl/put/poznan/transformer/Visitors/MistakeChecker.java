@@ -13,19 +13,23 @@ public class MistakeChecker implements ScenarioPartVisitor {
     private ArrayList<String> actors = new ArrayList<>();
     private ArrayList<String> mistakes = new ArrayList<>();
 
+    /**
+     * Unused.
+     * @param scenario Scenario object
+     */
     @Override
-    public void visit(Scenario scenario) {
+    public void visit(Scenario scenario) {}
 
-    }
-
+    /**
+     * Unused.
+     * @param title Title object
+     */
     @Override
-    public void visit(Title title) {
-
-    }
+    public void visit(Title title) {}
 
     /**
      * Used to list every viable actor name.
-     * @param actor
+     * @param actor Actor object
      */
     @Override
     public void visit(Actor actor) {
@@ -34,7 +38,7 @@ public class MistakeChecker implements ScenarioPartVisitor {
 
     /**
      * Used to list every viable system actor name.
-     * @param systemActor
+     * @param systemActor SystemActor object
      */
     @Override
     public void visit(SystemActor systemActor) {
@@ -43,7 +47,7 @@ public class MistakeChecker implements ScenarioPartVisitor {
 
     /**
      * This method checks whether a step begins with a viable actor's name.
-     * @param step
+     * @param step Step object
      */
     @Override
     public void visit(Step step) {

@@ -6,6 +6,11 @@ import pl.put.poznan.transformer.Visitors.MistakeChecker;
 import pl.put.poznan.transformer.Visitors.StepEnumerator;
 import pl.put.poznan.transformer.Visitors.StepsCounter;
 
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 /**
  * This is just an example to show that the logic should be outside the REST service.
  */
@@ -13,11 +18,11 @@ public class ScenarioQualityChecker {
 
     private final Scenario scenario;
 
-    public ScenarioQualityChecker(Scenario trans){
-        this.scenario = trans;
+    public ScenarioQualityChecker(Scenario scen){
+        this.scenario = scen;
     }
 
-    public String transform(String option){
+    public String transform(String option, HttpServletResponse response) throws IOException {
         String answer = "";
 
         switch(option) {
@@ -35,8 +40,17 @@ public class ScenarioQualityChecker {
 
             case "enumerate":
                 StepEnumerator stepEnumerator = new StepEnumerator();
-                stepEnumerator.visit(scenario);
-                answer = this.scenario.getAllSteps();
+                //stepEnumerator.visit(scenario);
+                scenario.accept(stepEnumerator);
+                answer = stepEnumerator.getEnumerated();
+                //answer = this.scenario.getAllSteps();
+                response.setContentType("text/plain;charset=UTF-8");
+                response.setCharacterEncoding("UTF-8");
+                response.setHeader("Content-Disposition","attachment;filename=Scenario.txt");
+                PrintWriter out = response.getWriter();
+                out.println(answer);
+                out.flush();
+                out.close();
                 break;
 
             case "mistakes":

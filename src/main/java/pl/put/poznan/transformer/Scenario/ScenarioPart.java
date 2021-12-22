@@ -8,7 +8,7 @@ public interface ScenarioPart {
     /**
      * This method allows the visitor classes to interact
      * with the scenario element classes.
-     * @param scenarioPartVisitor This is the only parameter to accept method
+     * @param scenarioPartVisitor Accepts any Visitor object implementing ScenarioPartVisitor interface
      */
     public void accept(ScenarioPartVisitor scenarioPartVisitor);
 }

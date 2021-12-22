@@ -5,15 +5,19 @@ import pl.put.poznan.transformer.Scenario.*;
 import java.util.List;
 
 public class StepEnumerator implements ScenarioPartVisitor {
+
+    private String enumerated;
+
     @Override
     public void visit(Scenario scenario) {
-        for (Step step : scenario.getSteps()) {
+        /*for (Step step : scenario.getSteps()) {
             visit(step);
-        }
+        }*/
         int depth = 0;
         while (iterateOverDepth(scenario.getSteps(), depth) > 1) {
             depth += 1;
         }
+        setEnumerated(scenario.getAllSteps());
     }
 
     private int iterateOverDepth(List<Step> steps, int depth) {
@@ -54,17 +58,19 @@ public class StepEnumerator implements ScenarioPartVisitor {
     }
 
     @Override
-    public void visit(Title title) {
-
-    }
+    public void visit(Title title) {}
 
     @Override
-    public void visit(Actor actor) {
-
-    }
+    public void visit(Actor actor) {}
 
     @Override
-    public void visit(SystemActor systemActor) {
+    public void visit(SystemActor systemActor) {}
 
+    public void setEnumerated(String steps){
+        this.enumerated = steps;
+    }
+
+    public String getEnumerated(){
+        return this.enumerated;
     }
 }

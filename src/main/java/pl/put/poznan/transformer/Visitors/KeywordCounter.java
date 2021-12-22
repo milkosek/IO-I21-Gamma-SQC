@@ -6,9 +6,7 @@ public class KeywordCounter implements ScenarioPartVisitor {
     private int keywordCount = 0;
 
     @Override
-    public void visit(Scenario scenario) {
-
-    }
+    public void visit(Scenario scenario) {}
 
     @Override
     public void visit(Step step) {
@@ -29,17 +27,11 @@ public class KeywordCounter implements ScenarioPartVisitor {
     }
 
     @Override
-    public void visit(Title title) {
-
-    }
+    public void visit(Title title) {}
 
     @Override
-    public void visit(Actor actor) {
-
-    }
+    public void visit(Actor actor) {}
 
     @Override
-    public void visit(SystemActor systemActor) {
-
-    }
+    public void visit(SystemActor systemActor) {}
 }
