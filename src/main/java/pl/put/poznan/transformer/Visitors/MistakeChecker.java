@@ -9,8 +9,13 @@ import java.util.ArrayList;
  * to find any that do not start with a viable actor.
  */
 public class MistakeChecker implements ScenarioPartVisitor {
-
+    /**
+     * Stores an ArrayList of viable actors.
+     */
     private ArrayList<String> actors = new ArrayList<>();
+    /**
+     * Stores all found mistakes of a scenario.
+     */
     private ArrayList<String> mistakes = new ArrayList<>();
 
     /**
