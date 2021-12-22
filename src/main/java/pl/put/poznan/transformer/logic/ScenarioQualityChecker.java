@@ -11,10 +11,10 @@ import pl.put.poznan.transformer.Visitors.StepsCounter;
  */
 public class ScenarioQualityChecker {
 
-    private final Scenario trans;
+    private final Scenario scenario;
 
     public ScenarioQualityChecker(Scenario trans){
-        this.trans = trans;
+        this.scenario = trans;
     }
 
     public String transform(String option){
@@ -23,27 +23,25 @@ public class ScenarioQualityChecker {
         switch(option) {
             case "count":
                 StepsCounter stepsCounter = new StepsCounter();
-                trans.accept(stepsCounter);
-                //stepsCounter.visit(trans);
+                scenario.accept(stepsCounter);
                 answer = "" + stepsCounter.getCount();
                 break;
 
             case "countKeywords":
                 KeywordCounter keywordCounter = new KeywordCounter();
-                trans.accept(keywordCounter);
-                //keywordCounter.visit(trans);
+                scenario.accept(keywordCounter);
                 answer = "" + keywordCounter.getKeywordCount();
                 break;
 
             case "enumerate":
                 StepEnumerator stepEnumerator = new StepEnumerator();
-                stepEnumerator.visit(trans);
-                answer = this.trans.getAllSteps();
+                stepEnumerator.visit(scenario);
+                answer = this.scenario.getAllSteps();
                 break;
 
             case "mistakes":
                 MistakeChecker mistakeCounter = new MistakeChecker();
-                trans.accept(mistakeCounter);
+                scenario.accept(mistakeCounter);
                 answer = mistakeCounter.getMistakes();
                 break;
 
