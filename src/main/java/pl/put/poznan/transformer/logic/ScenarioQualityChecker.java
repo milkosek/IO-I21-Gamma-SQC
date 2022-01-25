@@ -5,6 +5,7 @@ import pl.put.poznan.transformer.Visitors.KeywordCounter;
 import pl.put.poznan.transformer.Visitors.MistakeChecker;
 import pl.put.poznan.transformer.Visitors.StepEnumerator;
 import pl.put.poznan.transformer.Visitors.StepsCounter;
+import pl.put.poznan.transformer.Visitors.Simplifier;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -17,13 +18,19 @@ import java.io.PrintWriter;
 public class ScenarioQualityChecker {
 
     private final Scenario scenario;
+    private Integer depth;
 
     public ScenarioQualityChecker(Scenario scen){
         this.scenario = scen;
     }
 
+    public ScenarioQualityChecker(Scenario scen, Integer depth){
+        this.scenario = scen;
+        this.depth = depth;
+    }
+
     public String transform(String option, HttpServletResponse response) throws IOException {
-        String answer = "";
+        String answer;
 
         switch(option) {
             case "count":
@@ -40,23 +47,21 @@ public class ScenarioQualityChecker {
 
             case "enumerate":
                 StepEnumerator stepEnumerator = new StepEnumerator();
-                //stepEnumerator.visit(scenario);
                 scenario.accept(stepEnumerator);
                 answer = stepEnumerator.getEnumerated();
-                //answer = this.scenario.getAllSteps();
-                response.setContentType("text/plain;charset=UTF-8");
-                response.setCharacterEncoding("UTF-8");
-                response.setHeader("Content-Disposition","attachment;filename=Scenario.txt");
-                PrintWriter out = response.getWriter();
-                out.println(answer);
-                out.flush();
-                out.close();
                 break;
 
             case "mistakes":
                 MistakeChecker mistakeCounter = new MistakeChecker();
                 scenario.accept(mistakeCounter);
                 answer = mistakeCounter.getMistakes();
+                break;
+
+            case "simplify":
+                Simplifier simp = new Simplifier();
+                simp.setDepth(this.depth);
+                scenario.accept(simp);
+                answer = simp.getSimplified();
                 break;
 
             default:

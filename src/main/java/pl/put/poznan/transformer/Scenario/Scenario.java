@@ -104,7 +104,8 @@ public class Scenario implements ScenarioPart{
         for (Step step : getSteps()) {
             //System.out.println(step.getStep());
             // "\n" doesn't work on strings ending with ":"?!
-            answer += step.getStep() + "\n";
+            // workaround using with "ㅤ" symbol (u+3164)
+            answer += step.getStep() + "ㅤ\n";
         }
         return answer;
     }

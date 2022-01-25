@@ -18,13 +18,22 @@ public class ScenarioQualityCheckerController {
     @RequestMapping(method = RequestMethod.POST, produces = "application/json")
     public String post(@PathVariable String text,
                        @RequestBody Scenario transforms,
+                       @RequestParam(required = false) Integer depth,
                        HttpServletResponse response) {
 
         // log the parameters
         logger.debug(text);
 
         // perform the transformation, you should run your logic here, below is just a silly example
-        ScenarioQualityChecker transformer = new ScenarioQualityChecker(transforms);
+
+        ScenarioQualityChecker transformer;
+
+        if (depth != null) {
+            transformer = new ScenarioQualityChecker(transforms, depth);
+        }
+        else {
+            transformer = new ScenarioQualityChecker(transforms);
+        }
 
         try {
             return transformer.transform(text, response);
@@ -32,8 +41,6 @@ public class ScenarioQualityCheckerController {
             return "Error sending file";
         }
     }
-
-
 
 }
 
