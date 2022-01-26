@@ -3,10 +3,8 @@ package pl.put.poznan.transformer.logic;
 import pl.put.poznan.transformer.Scenario.Scenario;
 import pl.put.poznan.transformer.Visitors.*;
 
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * This is just an example to show that the logic should be outside the REST service.

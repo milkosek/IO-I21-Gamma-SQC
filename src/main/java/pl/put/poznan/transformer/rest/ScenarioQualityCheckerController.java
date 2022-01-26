@@ -29,6 +29,7 @@ public class ScenarioQualityCheckerController {
 
         ScenarioQualityChecker transformer;
 
+        // pass the correct parameters
         if (depth != null) {
             transformer = new ScenarioQualityChecker(transforms, depth);
         }

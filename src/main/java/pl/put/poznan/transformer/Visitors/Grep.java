@@ -9,7 +9,6 @@ public class Grep implements ScenarioPartVisitor {
     private ArrayList<Step> found = new ArrayList<>();
     private String search;
 
-
     public void setWord(String search) {
         this.search = search;
     }
