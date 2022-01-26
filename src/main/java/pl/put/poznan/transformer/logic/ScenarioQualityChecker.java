@@ -77,6 +77,12 @@ public class ScenarioQualityChecker {
                 answer = actorChecker.getUnused();
                 break;
 
+            case "stepNumber":
+                StepFinder stepFinder = new StepFinder(this.depth);
+                scenario.accept(stepFinder);
+                answer = stepFinder.getAns();
+                break;
+
             default:
                 answer = "Unknown option";
                 break;

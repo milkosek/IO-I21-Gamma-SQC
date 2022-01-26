@@ -3,11 +3,11 @@ package pl.put.poznan.transformer.logic;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.put.poznan.transformer.Scenario.Scenario;
-import pl.put.poznan.transformer.Visitors.KeywordCounter;
-import pl.put.poznan.transformer.Visitors.MistakeChecker;
-import pl.put.poznan.transformer.Visitors.StepsCounter;
+import pl.put.poznan.transformer.Scenario.Step;
+import pl.put.poznan.transformer.Visitors.*;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 class ScenarioQualityCheckerTest {
 
@@ -15,7 +15,7 @@ class ScenarioQualityCheckerTest {
 
     @BeforeEach
     void setUp(){
-        scenario = new Scenario("Ex", new String[]{"Bibliotekarz"}, new String[]{"System"}, new String[]{"Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
+        scenario = new Scenario("Ex", new String[]{"Bibliotekarz", "Zły"}, new String[]{"System"}, new String[]{"Bibliotekarz wybiera opcję dodania nowej pozycji książkowej",
                 "Wyświetla się formularz.", "IF: Bibliotekarz pragnie dodać egzemplarze książki", " System prezentuje zdefiniowane egzemplarze",
                 " FOR EACH egzemplarz:", "  Bibliotekarz podaje dane egzemplarza i zatwierdza."});
     }
@@ -28,10 +28,10 @@ class ScenarioQualityCheckerTest {
     }
 
     @Test
-    void KeywordCounterTest(){
-        KeywordCounter keywordCounter = new KeywordCounter();
-        scenario.accept(keywordCounter);
-        assertEquals(2, keywordCounter.getKeywordCount());
+    void StepEnumeratorTest(){
+        StepEnumerator stepEnumerator = new StepEnumerator();
+        scenario.accept(stepEnumerator);
+        assertEquals("1. Bibliotekarz wybiera opcję dodania nowej pozycji książkowejㅤ\n2. Wyświetla się formularz.ㅤ\n3. IF: Bibliotekarz pragnie dodać egzemplarze książkiㅤ\n3.1. System prezentuje zdefiniowane egzemplarzeㅤ\n3.2. FOR EACH egzemplarz:ㅤ\n3.2.1. Bibliotekarz podaje dane egzemplarza i zatwierdza.ㅤ\n", stepEnumerator.getEnumerated());
     }
 
     @Test
@@ -39,5 +39,28 @@ class ScenarioQualityCheckerTest {
         MistakeChecker mistakeChecker = new MistakeChecker();
         scenario.accept(mistakeChecker);
         assertEquals("Wyświetla się formularz.\n", mistakeChecker.getMistakes());
+    }
+
+    @Test
+    void ActorCheckerTest(){
+        ActorChecker actorChecker = new ActorChecker();
+        scenario.accept(actorChecker);
+        assertEquals("Zły\n", actorChecker.getUnused());
+    }
+
+    @Test
+    void StepFinderTest(){
+        StepFinder stepFinder = new StepFinder(3);
+        scenario.accept(stepFinder);
+        assertEquals("IF: Bibliotekarz pragnie dodać egzemplarze książkiㅤ\n System prezentuje zdefiniowane egzemplarzeㅤ\n FOR EACH egzemplarz:ㅤ\n  Bibliotekarz podaje dane egzemplarza i zatwierdza.ㅤ\n", stepFinder.getAns());
+    }
+
+    @Test
+    void KeywordCounterMockTest(){
+        KeywordCounter keywordCounter = new KeywordCounter();
+        Step step = mock(Step.class);
+        when(step.getStep()).thenReturn("IF: Bibliotekarz pragnie dodać egzemplarze książki");
+        keywordCounter.visit(step);
+        assertEquals(1, keywordCounter.getKeywordCount());
     }
 }
