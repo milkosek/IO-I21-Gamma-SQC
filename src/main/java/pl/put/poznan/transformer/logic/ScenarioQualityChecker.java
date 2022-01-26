@@ -6,6 +6,7 @@ import pl.put.poznan.transformer.Visitors.MistakeChecker;
 import pl.put.poznan.transformer.Visitors.StepEnumerator;
 import pl.put.poznan.transformer.Visitors.StepsCounter;
 import pl.put.poznan.transformer.Visitors.Simplifier;
+import pl.put.poznan.transformer.Visitors.Grep;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -19,6 +20,7 @@ public class ScenarioQualityChecker {
 
     private final Scenario scenario;
     private Integer depth;
+    private String arg1;
 
     public ScenarioQualityChecker(Scenario scen){
         this.scenario = scen;
@@ -27,6 +29,11 @@ public class ScenarioQualityChecker {
     public ScenarioQualityChecker(Scenario scen, Integer depth){
         this.scenario = scen;
         this.depth = depth;
+    }
+
+    public ScenarioQualityChecker(Scenario scen, String arg1){
+        this.scenario = scen;
+        this.arg1 = arg1;
     }
 
     public String transform(String option, HttpServletResponse response) throws IOException {
@@ -62,6 +69,13 @@ public class ScenarioQualityChecker {
                 simp.setDepth(this.depth);
                 scenario.accept(simp);
                 answer = simp.getSimplified();
+                break;
+
+            case "search":
+                Grep grep = new Grep();
+                grep.setWord(this.arg1);
+                scenario.accept(grep);
+                answer = grep.getFound();
                 break;
 
             default:

@@ -41,7 +41,6 @@ public class Simplifier implements ScenarioPartVisitor {
 
     public String getSimplified(){
         String answer = "";
-        String newline = System.getProperty("line.separator");
 
         for (Step step : simplified) {
             //System.out.println(step.getStep());

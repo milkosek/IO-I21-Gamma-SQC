@@ -19,6 +19,7 @@ public class ScenarioQualityCheckerController {
     public String post(@PathVariable String text,
                        @RequestBody Scenario transforms,
                        @RequestParam(required = false) Integer depth,
+                       @RequestParam(required = false) String arg1,
                        HttpServletResponse response) {
 
         // log the parameters
@@ -30,6 +31,9 @@ public class ScenarioQualityCheckerController {
 
         if (depth != null) {
             transformer = new ScenarioQualityChecker(transforms, depth);
+        }
+        else if (arg1 != null) {
+            transformer = new ScenarioQualityChecker(transforms, arg1);
         }
         else {
             transformer = new ScenarioQualityChecker(transforms);
