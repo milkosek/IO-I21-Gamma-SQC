@@ -1,12 +1,7 @@
 package pl.put.poznan.transformer.logic;
 
 import pl.put.poznan.transformer.Scenario.Scenario;
-import pl.put.poznan.transformer.Visitors.KeywordCounter;
-import pl.put.poznan.transformer.Visitors.MistakeChecker;
-import pl.put.poznan.transformer.Visitors.StepEnumerator;
-import pl.put.poznan.transformer.Visitors.StepsCounter;
-import pl.put.poznan.transformer.Visitors.Simplifier;
-import pl.put.poznan.transformer.Visitors.Grep;
+import pl.put.poznan.transformer.Visitors.*;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -76,6 +71,12 @@ public class ScenarioQualityChecker {
                 grep.setWord(this.arg1);
                 scenario.accept(grep);
                 answer = grep.getFound();
+                break;
+
+            case "unused":
+                ActorChecker actorChecker = new ActorChecker();
+                scenario.accept(actorChecker);
+                answer = actorChecker.getUnused();
                 break;
 
             default:
