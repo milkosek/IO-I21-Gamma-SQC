@@ -27,9 +27,21 @@ public class Scenario implements ScenarioPart{
         scenarioPartVisitor.visit(this);
     }
 
+    /**
+     * Stores a Title object.
+     */
     private Title title;
+    /**
+     * Stores an ArrayList of Actor objects.
+     */
     private ArrayList<Actor> actors = new ArrayList<>();
+    /**
+     * Stores an ArrayList of SystemActor objects.
+     */
     private ArrayList<SystemActor> systemActors = new ArrayList<>();
+    /**
+     * Stores Stores an ArrayList of Step objects.
+     */
     private ArrayList<Step> steps = new ArrayList<>();
 
     /**
